@@ -1,4 +1,8 @@
-from fibonacci_project.fibonacci import generate_fibonacci  
+import sys
+
+sys.path.append('./fibonacci_project')
+
+from fibonacci_project import generate_fibonacci  
 
 if __name__ == "__main__":     
 	n = 10  # Changer la valeur si nécessaire  
